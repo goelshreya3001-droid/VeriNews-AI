@@ -1,0 +1,64 @@
+{
+  "deployed_model": "Linear SVM",
+  "dataset": {
+    "rows_after_dedup": 44689,
+    "fake": 23478,
+    "real": 21211,
+    "train_size": 35751,
+    "test_size": 8938,
+    "tfidf_features": 5000
+  },
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9897068695457597,
+      "precision": 0.9861761949390815,
+      "recall": 0.9922206506364922,
+      "f1": 0.9891891891891892,
+      "confusion_matrix": [
+        [
+          4637,
+          59
+        ],
+        [
+          33,
+          4209
+        ]
+      ]
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 0.9372342805996867,
+      "precision": 0.9372772630078403,
+      "recall": 0.92998585572843,
+      "f1": 0.9336173233936812,
+      "confusion_matrix": [
+        [
+          4432,
+          264
+        ],
+        [
+          297,
+          3945
+        ]
+      ]
+    },
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.9950771984784068,
+      "precision": 0.9952807928268051,
+      "recall": 0.9943422913719944,
+      "f1": 0.994811320754717,
+      "confusion_matrix": [
+        [
+          4676,
+          20
+        ],
+        [
+          24,
+          4218
+        ]
+      ]
+    }
+  ]
+}
