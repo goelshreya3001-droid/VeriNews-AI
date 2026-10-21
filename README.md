@@ -74,7 +74,7 @@ Linear SVM confusion matrix (rows = actual Fake/Real): `[[4676, 20], [24, 4218]]
 ## Limitations (be upfront in your viva)
 - The ISOT dataset is from limited sources and years; real articles often contain agency tags like "(Reuters)", so very high scores may partly reflect source style, not truthfulness.
 - The model classifies writing patterns, it does not fact-check claims. Performance on other outlets/topics is untested.
-- The SVM output is a margin, not a calibrated probability.
+- The SVM output is a margin, not a calibrated probability
 
 ## Troubleshooting
 - `Missing dataset file` → put the CSVs in `backend\data\`.
